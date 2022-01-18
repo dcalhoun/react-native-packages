@@ -19,6 +19,7 @@ $ git clone https://github.com/YOUR_GITHUB_USERNAME/react-native-packages.git
 $ cd react-native-packages
 $ git remote add upstream https://github.com/wordPress-mobile/react-native-packages.git
 $ npm install
+$ npm run bootstrap
 ```
 
 ## Generating Package Patches
@@ -29,6 +30,6 @@ This project utilizes [`patch-package`](https://github.com/ds300/patch-package) 
 1. Run `patch-packages` to generate the patch file.
    ```bash
    $ cd ./packages/react-native-masked-view
-   $ npx patch-package @react-native-community/masked-view
+   $ npm run patch-package @react-native-community/masked-view
    ```
 1. Commit the patch files.

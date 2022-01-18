@@ -11,7 +11,9 @@
   "repository": {},
   "bugs": {},
   "scripts": {
-    "distclean": "rimraf node_modules packages/*/node_modules"
+    "bootstrap": "lerna bootstrap",
+    "distclean": "rimraf node_modules packages/*/node_modules",
+    "patch-packages": "lerna run patch-package"
   },
   "devDependencies": {
     "lerna": "^4.0.0",

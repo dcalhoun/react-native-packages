@@ -11,6 +11,7 @@
   "repository": {},
   "bugs": {},
   "scripts": {
+    "patch-package": "patch-package",
     "postinstall": "patch-package"
   },
   "dependencies": {
