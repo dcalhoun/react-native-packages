@@ -1,0 +1,19 @@
+{
+  "name": "@wordpress-mobile/masked-view",
+  "version": "0.0.1",
+  "description": "Gradle configuration wrapper for react-native-masked-view.",
+  "author": "The WordPress Contributors",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "wordpress"
+  ],
+  "homepage": "",
+  "repository": {},
+  "bugs": {},
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.11"
+  }
+}
