@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.11"
+  },
+  "devDependencies": {
+    "patch-package": "^6.4.7"
   }
 }

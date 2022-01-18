@@ -13,12 +13,8 @@
   "scripts": {
     "distclean": "rimraf node_modules packages/*/node_modules"
   },
-  "dependencies": {
-    "@wordpress-mobile/masked-view": "file:packages/react-native-masked-view"
-  },
   "devDependencies": {
     "lerna": "^4.0.0",
-    "patch-package": "^6.4.7",
     "rimraf": "^3.0.2"
   }
 }
