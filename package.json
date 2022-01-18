@@ -1,22 +1,26 @@
 {
-  "name": "react-native-packages",
-  "version": "0.0.1",
-  "description": "Gradle configuration wrapper for React Native packages.",
-  "author": "The WordPress Contributors",
-  "license": "GPL-2.0-or-later",
-  "keywords": [
-    "wordpress"
-  ],
-  "homepage": "",
-  "repository": {},
-  "bugs": {},
-  "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "distclean": "rimraf node_modules packages/*/node_modules",
-    "patch-packages": "lerna run patch-package"
-  },
-  "devDependencies": {
-    "lerna": "^4.0.0",
-    "rimraf": "^3.0.2"
-  }
+	"name": "react-native-packages",
+	"private": true,
+	"version": "0.0.1",
+	"description": "Gradle configuration wrapper for React Native packages.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress"
+	],
+	"homepage": "",
+	"repository": {},
+	"bugs": {},
+	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"distclean": "rimraf node_modules packages/*/node_modules",
+		"format": "prettier .",
+		"patch-packages": "lerna run patch-package"
+	},
+	"devDependencies": {
+		"@wordpress/prettier-config": "^1.1.1",
+		"lerna": "^4.0.0",
+		"prettier": "^2.5.1",
+		"rimraf": "^3.0.2"
+	}
 }
