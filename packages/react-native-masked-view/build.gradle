@@ -2,12 +2,15 @@ plugins {
     id "com.moowork.node" version "1.3.1"
 }
 apply plugin: 'com.moowork.node'
+
 node {
     download = true
 }
+
 task installAndPatchPackage( type: NpmTask ) {
   args = ['install']
 }
+
 task build( dependsOn: 'installAndPatchPackage' ) {
   // TODO: Configure Gradle to find the modified module within
   // `./node_modules/react-native-masked-view/android`
