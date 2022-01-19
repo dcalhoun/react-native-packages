@@ -1,5 +1,6 @@
 {
 	"name": "@wordpress-mobile/masked-view",
+	"private": true,
 	"version": "0.0.1",
 	"description": "Gradle configuration wrapper for react-native-masked-view.",
 	"author": "The WordPress Contributors",
