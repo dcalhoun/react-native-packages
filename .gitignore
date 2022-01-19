@@ -4,6 +4,7 @@ node_modules
 # Artifacts that may appear in your environment
 *.log
 .tool-versions
+.idea
 
 # Operating system specific files
 .DS_Store
